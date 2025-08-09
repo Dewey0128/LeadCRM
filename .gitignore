@@ -1,0 +1,61 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Node.js 和 npm 相关
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# 编译生成的文件
+/dist/
+
+# IDE 和编辑器相关
+.vscode/
+.idea/
+*.suo
+*.user
+*.vspscc
+*.pidb
+*.log
+
+# 系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# 其他临时文件
+*.tmp
+*.bak
+*.swp
+*.lock
+
+# 特定于项目的文件
+.env
+.env.*
+!/.env.example
+
+# Vite 配置文件缓存
+.vite/
